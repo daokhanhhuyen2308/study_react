@@ -1,0 +1,11 @@
+/* CSS button */
+
+.button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--first-color);
+    cursor: pointer;
+    font-size: 24px;
+  }
