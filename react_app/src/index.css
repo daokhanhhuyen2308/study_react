@@ -25,6 +25,7 @@ body{
 /* CSS card */
 
 .card{
+  display: none;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -76,4 +77,51 @@ body{
   background-color: var(--error-color);
   color: white;
 
+}
+/* List */
+.list-category{
+  border: 2px solid var(--first-color);
+  border-radius: 5px;
+  color: #464ef0;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgb(155, 193, 207);
+}
+
+.list-items li{
+  font-size: 1.5em;
+  list-style: none;
+  color: var(--second-color);
+  margin: 0;
+  text-align: center;
+
+}
+
+.list-items li:hover{
+  color: #3740e2;
+  cursor: pointer;
+}
+
+/* input */
+input[type="text"], input[type="number"]{
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+textarea{
+  width: 500px;
+  height: 100px;
+}
+
+button{
+  padding: 12px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--first-color);
+  color: white;
+  border-radius: 10px;
+  margin-left: 10px;
 }
