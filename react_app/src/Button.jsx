@@ -20,10 +20,9 @@ function Button(){
 
     const [showCard, setShowCard] = useState(false);
 
-    // const img = Card;
 
     const handleClick = () => {
-        setShowCard(true);
+        setShowCard(!showCard);
     }
 
     return(<>

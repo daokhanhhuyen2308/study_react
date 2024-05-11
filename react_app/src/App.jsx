@@ -10,7 +10,7 @@ import Counter from "./hooks/Counter.jsx";
 import ColorPicker from "./hooks/ColorPicker.jsx";
 import ObjectComponent from './hooks/ObjectComponent.jsx'
 import ArrayComponent from "./hooks/ArrayComponent.jsx";
-
+import Component2 from "./hooks/Component2.jsx";
 
 function App() {
 
@@ -54,8 +54,9 @@ function App() {
 
      {/* <ObjectComponent/> */}
      
-     <ArrayComponent/>
+     {/* <ArrayComponent/> */}
 
+     <Component2/>
 
     </>
   )
